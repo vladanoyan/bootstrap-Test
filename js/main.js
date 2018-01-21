@@ -1,0 +1,41 @@
+$('.slide1').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:false,
+    animateOut:true,
+    dots:false,
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+$('.slide2').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:false,
+    animateOut:true,
+    dots:false,
+    animateOut: 'fadeOut',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
